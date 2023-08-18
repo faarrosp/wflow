@@ -1,0 +1,127 @@
+2023-08-17 12:29:56,437 - wflow_sbm - pcrut - DEBUG - File logging to /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/testing/wflow.log
+2023-08-17 12:29:56,437 - wflow_sbm - wf_DynamicFramework - INFO - wflow_sbm 2020.1.2 Case: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm Runid: testing
+2023-08-17 12:29:56,437 - wflow_sbm - wf_DynamicFramework - INFO - Initialise framework version: 2020.1.2
+2023-08-17 12:29:56,438 - wflow_sbm - wf_DynamicFramework - WARNING - Ini file made for sbm but found __main__ in code.
+2023-08-17 12:29:56,447 - wflow_sbm - wf_DynamicFramework - INFO - Adding csv output at /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_landuse.map function: average
+2023-08-17 12:29:56,449 - wflow_sbm - wf_DynamicFramework - INFO - Adding csv output at /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_subcatch.map function: average
+2023-08-17 12:29:56,450 - wflow_sbm - wf_DynamicFramework - INFO - Adding tss output at /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_gauges.map function: average
+2023-08-17 12:29:56,450 - wflow_sbm - wflow_sbm - INFO - running for 29 timesteps
+2023-08-17 12:29:56,452 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_riverlength.map)  not present, returning 0.0
+2023-08-17 12:29:56,453 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_inflow.map)  not present, returning 0.0
+2023-08-17 12:29:56,453 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_riverwidth.map)  not present, returning 0.0
+2023-08-17 12:29:56,453 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm\staticmaps/wflow_tempcor.map)  not present, returning 0.0
+2023-08-17 12:29:56,454 - wflow_sbm - wflow_sbm - INFO - Linking parameters to landuse, catchment and soil...
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - INFO - Adding Precipitation to model.
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/inmaps/P.map)  not present, returning 0.0
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - INFO - Adding PotenEvap to model.
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/inmaps/PET.map)  not present, returning 0.0
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - INFO - Adding Temperature to model.
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/inmaps/TEMP.map)  not present, returning 10.0
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - INFO - Adding Inflow to model.
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - INFO - Adding IrrigationAreas to model.
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_irrigationareas.map)  not present, returning 0.0
+2023-08-17 12:29:56,454 - wflow_sbm - wf_DynamicFramework - INFO - Adding IrrigationSurfaceIntakes to model.
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_irrisurfaceintake.map)  not present, returning 0.0
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - INFO - Adding IrrigationPaddyAreas to model.
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_irrigationpaddyareas.map)  not present, returning 0.0
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - INFO - Adding IrrigationSurfaceReturn to model.
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - INFO - Adding h_max to model.
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_hmax.map)  not present, returning 0.0
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - INFO - Adding h_min to model.
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_hmin.map)  not present, returning 0.0
+2023-08-17 12:29:56,455 - wflow_sbm - wf_DynamicFramework - INFO - Adding h_p to model.
+2023-08-17 12:29:56,456 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/wflow_hp.map)  not present, returning 0.0
+2023-08-17 12:29:56,457 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/MaxCanopyStorage.tbl
+2023-08-17 12:29:56,458 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/CanopyGapFraction.tbl
+2023-08-17 12:29:56,459 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/EoverR.tbl
+2023-08-17 12:29:56,462 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/RootingDepth.tbl
+2023-08-17 12:29:56,463 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/AirEntryPressure.tbl) returning default value: 10.0
+2023-08-17 12:29:56,463 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/rootdistpar.tbl) returning default value: -8000
+2023-08-17 12:29:56,465 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/InfiltCapSoil.tbl
+2023-08-17 12:29:56,465 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/CapScale.tbl) returning default value: 100.0
+2023-08-17 12:29:56,467 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/InfiltCapPath.tbl
+2023-08-17 12:29:56,468 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/MaxLeakage.tbl
+2023-08-17 12:29:56,469 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/MaxPercolation.tbl) returning default value: 0.0
+2023-08-17 12:29:56,470 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/PathFrac.tbl
+2023-08-17 12:29:56,473 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/SoilThickness.tbl
+2023-08-17 12:29:56,474 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/thetaR.tbl
+2023-08-17 12:29:56,476 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/thetaS.tbl
+2023-08-17 12:29:56,479 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/SoilMinThickness.tbl
+2023-08-17 12:29:56,480 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/KsatVer.tbl
+2023-08-17 12:29:56,481 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/MporeFrac.tbl) returning default value: 0.0
+2023-08-17 12:29:56,481 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/KsatHorFrac.tbl) returning default value: 1.0
+2023-08-17 12:29:56,483 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/M.tbl
+2023-08-17 12:29:56,485 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/N.tbl
+2023-08-17 12:29:56,486 - wflow_sbm - wf_DynamicFramework - INFO - Creating map from table: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/N_River.tbl
+2023-08-17 12:29:56,487 - wflow_sbm - wf_DynamicFramework - INFO - reading map parameter file: /Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/../staticmaps/WaterFrac.map
+2023-08-17 12:29:56,487 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/et_reftopot.tbl) returning default value: 1.0
+2023-08-17 12:29:56,492 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/Slope.map)  not present, returning <pcraster._pcraster.Field object at 0x140af03b0>
+2023-08-17 12:29:56,495 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/KsatVerFrac.tbl) returning default value: 1.0
+2023-08-17 12:29:56,495 - wflow_sbm - wf_DynamicFramework - WARNING - tbl file not found (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/intbl/c.tbl) returning default value: 10.0
+2023-08-17 12:29:56,496 - wflow_sbm - wflow_sbm - INFO - Initializing of model variables..
+2023-08-17 12:29:56,505 - wflow_sbm - wf_DynamicFramework - DEBUG - Static input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/staticmaps/RiverSlope.map)  not present, returning <pcraster._pcraster.Field object at 0x132c864b0>
+2023-08-17 12:30:01,140 - wflow_sbm - wflow_sbm - INFO - Saving summary maps...
+2023-08-17 12:30:01,140 - wflow_sbm - wflow_sbm - INFO - End of initial section
+2023-08-17 12:30:01,140 - wflow_sbm - wflow_sbm - INFO - Setting initial conditions from state files
+2023-08-17 12:30:01,141 - wflow_sbm - wf_DynamicFramework - DEBUG - State input data (/Users/farrospide/Documents/GitHub/wflow/examples/wflow_rhine_sbm/instate/LandRunoff.map)  not present, returning 0.0
+2023-08-17 12:30:01,144 - wflow_sbm - wf_DynamicFramework - INFO - state variable UStoreLayerDepth contains 1 state files (stack)
+2023-08-17 12:30:06,234 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,243 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 1/29.0 (1995-01-31 00:00:00+00:00)
+2023-08-17 12:30:06,301 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,305 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 2/29.0 (1995-02-01 00:00:00+00:00)
+2023-08-17 12:30:06,363 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,367 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 3/29.0 (1995-02-02 00:00:00+00:00)
+2023-08-17 12:30:06,424 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,429 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 4/29.0 (1995-02-03 00:00:00+00:00)
+2023-08-17 12:30:06,488 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,492 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 5/29.0 (1995-02-04 00:00:00+00:00)
+2023-08-17 12:30:06,550 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,554 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 6/29.0 (1995-02-05 00:00:00+00:00)
+2023-08-17 12:30:06,610 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,614 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 7/29.0 (1995-02-06 00:00:00+00:00)
+2023-08-17 12:30:06,671 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,676 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 8/29.0 (1995-02-07 00:00:00+00:00)
+2023-08-17 12:30:06,732 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,736 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 9/29.0 (1995-02-08 00:00:00+00:00)
+2023-08-17 12:30:06,793 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,797 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 10/29.0 (1995-02-09 00:00:00+00:00)
+2023-08-17 12:30:06,854 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,858 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 11/29.0 (1995-02-10 00:00:00+00:00)
+2023-08-17 12:30:06,914 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,918 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 12/29.0 (1995-02-11 00:00:00+00:00)
+2023-08-17 12:30:06,977 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:06,981 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 13/29.0 (1995-02-12 00:00:00+00:00)
+2023-08-17 12:30:07,036 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,040 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 14/29.0 (1995-02-13 00:00:00+00:00)
+2023-08-17 12:30:07,096 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,100 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 15/29.0 (1995-02-14 00:00:00+00:00)
+2023-08-17 12:30:07,162 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,167 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 16/29.0 (1995-02-15 00:00:00+00:00)
+2023-08-17 12:30:07,224 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,228 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 17/29.0 (1995-02-16 00:00:00+00:00)
+2023-08-17 12:30:07,286 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,290 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 18/29.0 (1995-02-17 00:00:00+00:00)
+2023-08-17 12:30:07,348 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,352 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 19/29.0 (1995-02-18 00:00:00+00:00)
+2023-08-17 12:30:07,411 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,415 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 20/29.0 (1995-02-19 00:00:00+00:00)
+2023-08-17 12:30:07,473 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,477 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 21/29.0 (1995-02-20 00:00:00+00:00)
+2023-08-17 12:30:07,536 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,541 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 22/29.0 (1995-02-21 00:00:00+00:00)
+2023-08-17 12:30:07,599 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,604 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 23/29.0 (1995-02-22 00:00:00+00:00)
+2023-08-17 12:30:07,663 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,667 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 24/29.0 (1995-02-23 00:00:00+00:00)
+2023-08-17 12:30:07,729 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,733 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 25/29.0 (1995-02-24 00:00:00+00:00)
+2023-08-17 12:30:07,796 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,801 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 26/29.0 (1995-02-25 00:00:00+00:00)
+2023-08-17 12:30:07,863 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,868 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 27/29.0 (1995-02-26 00:00:00+00:00)
+2023-08-17 12:30:07,932 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:07,937 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 28/29.0 (1995-02-27 00:00:00+00:00)
+2023-08-17 12:30:07,999 - wflow_sbm - wf_DynamicFramework - INFO - saving maps
+2023-08-17 12:30:08,003 - wflow_sbm - wf_DynamicFramework - DEBUG - timestep: 29/29.0 (1995-02-28 00:00:00+00:00)
+2023-08-17 12:30:08,004 - wflow_sbm - wflow_sbm - INFO - Saving initial conditions...
+2023-08-17 12:30:08,005 - wflow_sbm - wf_DynamicFramework - INFO - Saving summary maps to disk...
